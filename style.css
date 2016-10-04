@@ -46,4 +46,17 @@ h1{
     background: white;
     border-radius: 50% 50%;
     float: left;
+    margin: 20px 0 0 70px;
+    border: 5px solid black;
+}
+.skill-1:first-child{
+    margin: 20px 0px 0px 525px;
+}
+.skill-1>i{
+    margin: 45px 0px 0px 40px;
+    font-size: 400%;
+}
+.skill-1>p{
+     margin: 50px 0px 0px 0px;
+     font-size: 200%;
 }
