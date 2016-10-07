@@ -5,13 +5,13 @@
 .nav{
     height: 50px;
     width: 100%;
-    
 }
 h1{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: #fff;
-    font-size: 300%;
+    font-size: 400%;
+    font-weight: 600;
     margin: 175px 0px 0px 0px;
 }
 .header{
@@ -24,12 +24,19 @@ h1{
     font-family: 'Pacifico', cursive;
     color: black;
     font-size: 160%;
+    font-weight: 500;
 }
 .header>p{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: #fff;
+    font-weight: 600;
     font-size: 190%;
+}
+.header>h1+p{
+    color: #363636;
+    font-size: 130%;
+    font-weight: 600;
 }
 .menu>li{
     display: inline-block;
@@ -108,12 +115,11 @@ h1{
 .about_me{
     width: 100%;
     height: 455px;
-    background-color: red;
 }
 .my_photo{
     width: 48%;
     height: 100%;
-    background-color: blue;
+    
     float: left;
 }
 .description{
@@ -149,19 +155,68 @@ h1{
     width: 100%;
     height: 420px;
     background-image: url(img/dark_texture.jpg);
+    color: #8e8e8e;
+    font-family: 'Raleway', sans-serif;
 }
 .footer_left{
     width: 50%;
     height: 300px;
     float: left;
 }
+.footer_left>p{
+    padding: 0;
+    margin: 5px 0px 0px 185px;
+}
+.footer_left>p>a{
+    text-decoration: none;
+    color: #4bb8d2;
+    font-weight: 600;
+}
+.footer_left>h2{
+    padding: 0;
+    margin: 55px 0px 25px 185px;
+    font-size: 200%;
+}
+.footer_left>h3{
+    padding: 0;
+    margin: 25px 0px 25px 185px;
+    font-size: 130%;
+}
 .footer_right{
     width: 50%;
     height: 300px;
     float: left;
 }
+.footer_right>p{
+    margin: 5px 0px 0px 185px;
+    padding: 0;
+}
+.footer_right>p:nth-child(3){
+    margin: 40px 0px 0px 185px;
+}
+.footer_right>h2{
+    padding: 0;
+    margin: 55px 0px 25px 185px;
+    font-size: 200%;
+}
+.footer_right>p>a{
+    text-decoration: none;
+    color: #4bb8d2;
+    font-weight: 600;
+}
 .footer_both{
     width: 100%;
     height: 120px;
     float: left;
+}
+.footer_both>p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.footer_both>p:first-child{
+    margin-top: 45px;
+}
+.footer_both>p:first-child+p{
+    font-size: 80%;
 }
