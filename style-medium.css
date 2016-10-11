@@ -21,6 +21,7 @@ h1{
     background-position: 50% 50%;
     width: 100%;
     height: 100vh;
+    background-attachment: fixed;
 }
 .header>p>span{
     font-family: 'Pacifico', cursive;
@@ -47,8 +48,8 @@ h1{
 }
 
 .portfolio{
-    width: 700px;
-    height: 900px;
+    width: 740px;
+    height: 1628px;
     margin: 0 auto;
 }
 
@@ -69,35 +70,36 @@ h1{
     height: 341px;
     background: url(img/logo.jpg);
     float: left;
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 0px;
 }
 .website{
     width: 360px;
     height: 341px;
     float: left;
     background: url(img/website.jpg);
-    margin: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 0px;
 }
 .iphone{
     width: 175px;
     height: 341px;
     float: left;
     background: url(img/iphone.jpg);
-    margin: 0px 10px 0px 10px;
+    margin: 10px 0px 0px 0px;
+    
 }
 .ipad{
     width: 360px;
     height: 341px;
     float: left;
     background: url(img/ipad.jpg);
-    margin: 20px 10px 0px 10px;
+    margin: 10px 0px 0px 10px;
 }
 .nerv{
     width: 360px;
     height: 233px;
     float: left;
     background: url(img/nerv.jpg);
-    margin: 20px 10px 0px 10px;
+    margin: 10px 00px 0px 0px;
 }
 .desing{
     width: 360px;
@@ -111,8 +113,52 @@ h1{
     height: 341px;
     float: left;
     background: url(img/webdesing.jpg);
-    position: absolute;
-    margin: 361px 10px 0px 770px;
+    
+    margin: 351px 10px 0px 555px;
+}
+.eath{
+    width: 360px;
+    height: 233px;
+    float: left;
+    background: url(img/eath.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.easiheat{
+    width: 360px;
+    height: 233px;
+    float: left;
+    background: url(img/easiheat.jpg);
+    margin: 10px 0px 0px 0px;
+}
+.desing{
+    width: 360px;
+    height: 166px;
+    float: left;
+    background: url(img/desing.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.kub{
+    width: 175px;
+    height: 341px;
+    float: left;
+    background: url(img/kub.jpg);
+    margin: -125px 0px 0px 10px;
+    display: none;
+    
+}
+.macbook{
+    width: 360px;
+    height: 341px;
+    float: left;
+    background: url(img/macbook.jpg);
+    margin: 10px 0px 0px 10px;
+}
+.heartwood{
+    width: 360px;
+    height: 341px;
+    float: left;
+    background: url(img/heartwood.jpg);
+    margin: -275px 0px 0px 0px;
 }
 
 
@@ -122,13 +168,13 @@ h1{
 }
 .my_photo{
     width: 100%;
-    height: 100%;
+    height: 50%;
     
     
 }
 .description{
     width: 100%;
-    height: 100%;
+    height: 50%;
     
     font-family: 'Raleway', sans-serif;
     background-color: #f5f4f4;
@@ -140,7 +186,7 @@ h1{
     font-size: 300%;
 }
 .description>h2:first-child{
-    margin-top: 130px;
+    margin-top: 10px;
 }
 .description>p{
     color: #969696;
@@ -149,7 +195,7 @@ h1{
     font-size: 135%;
 }
 .description>p:nth-child(3){
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 
@@ -157,7 +203,7 @@ h1{
 
 .footer{
     width: 100%;
-    height: 1175px;
+    height: 720px;
     background-image: url(img/dark_texture.jpg);
     color: #8e8e8e;
     font-family: 'Raleway', sans-serif;
