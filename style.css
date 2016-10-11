@@ -22,6 +22,7 @@ h1{
     background-position: 50% 50%;
     width: 100%;
     height: 100vh;
+    background-attachment: fixed;
 }
 .header>p>span{
     font-family: 'Pacifico', cursive;
