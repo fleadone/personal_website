@@ -154,22 +154,27 @@ h1{
     width: 100%;
     height: 100%;
     background: #62a2bb;
-    opacity: 0.8;
-    display: none;
-    transition-property: font-size, margin, padding;
+    opacity: 0;
+    
+    transition-property: font-size, margin, padding, opacity;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
 .portfolio>div:hover .mask{
-    display: block;
+    opacity: 0.8;
 }
 .portfolio>div{
     transition-property: background-size;
     transition-duration: 0.3s;
     transition-timing-function: ease;
+    background-position: 50% 50%;
+    -webkit-transition-property: font-size,margin,padding, background-size;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
 }
 .portfolio>div:hover{
     background-size: 104% 104%;
+    transition: 0.2s;
 }
 
 
