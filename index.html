@@ -5,6 +5,8 @@
         <title> madebydenny</title>
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css" type="text/css" />
+        <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="style-medium.css" media="(max-width: 980px)"/>
     </head>
@@ -76,7 +78,20 @@
                     <p>about just a friendly chat? Give me an email and we </p>
                     <p>can grab a lovely brew.</p>
                     <h3>Email</h3>
-                    <p><a href="#">flead@yandex.ru</a></p>
+                    <h3 id="message" class="message">Thank for mail me</h3>
+                    <p><a id="mail" href="#">flead@yandex.ru</a></p>
+                    <div class="form" id="form">
+                        <p><i id="close" class="fa fa-times" aria-hidden="true"></i></p>
+                        <form>
+                            <input class="user-name" type="text" name="name" id="name" placeholder="Enter your name"/>
+                            <br>
+                            <input class="user-email" type="email" name="email" id="email" placeholder="Enter your email"/>
+                            <br>
+                            <textarea class="user-commit" name="comment" id="comment" rows="5" placeholder="Comment"></textarea>
+                            <br>
+                            <input id="btn" class="btn" type="submit" value="Send"/>
+                        </form>
+                    </div>
                 </div>
                 <div class="footer_right">
                     <h2>Networks</h2>
@@ -93,5 +108,10 @@
             </div>
             
         </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/function.js"></script>
+        
     </body>
 </html>

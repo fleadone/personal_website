@@ -269,3 +269,9 @@ h1{
 .footer_both>p:first-child+p{
     font-size: 80%;
 }
+.form{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+}

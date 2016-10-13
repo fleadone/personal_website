@@ -289,3 +289,53 @@ h1{
 .footer_both>p:first-child+p{
     font-size: 80%;
 }
+
+
+.form{
+    width: 500px;
+    height: 420px;
+    position: absolute;
+    display: none;
+    margin: -278px 0px 0px 185px;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(img/dark_texture.jpg);
+}
+.user-name{
+    width: 75%;
+    margin: 20px 0px 0px 65px;
+    font-size: 120%;
+    background-color: #f5f4f4;
+    border: none;
+}
+.user-email{
+    width: 75%;
+    margin: 20px 0px 0px 65px;
+    font-size: 120%;
+    border: none;
+}
+.user-commit{
+    width: 74.4%;
+    margin: 20px 0px 0px 65px;
+    font-size: 120%;
+    border: none;
+}
+.btn{
+    background: #fff;
+    border: none;
+    font-size: 120%;
+    color: #8e8e8e;
+    font-weight: 600;
+    margin: 20px 0px 0px 65px;
+}
+.form>p>i{
+    color: #8e8e8e;
+    margin: 30px 0px 0px 425px;
+    padding: 0;
+}
+.form>p>i:hover{
+    cursor: pointer;
+}
+.message{
+    display: none;
+    color: #4bb8d2;
+}
