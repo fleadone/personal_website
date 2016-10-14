@@ -48,8 +48,8 @@ h1{
 }
 
 .portfolio{
-    width: 740px;
-    height: 1628px;
+    width: 400px;
+    height: 3160px;
     margin: 0 auto;
 }
 
@@ -69,78 +69,74 @@ h1{
     width: 360px;
     height: 341px;
     background: url(img/logo.jpg);
-    float: left;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 20px;
 }
 .website{
     width: 360px;
     height: 341px;
-    float: left;
     background: url(img/website.jpg);
-    margin: 0px 10px 0px 0px;
+    margin: 15px 0px 0px 20px;
 }
 .iphone{
     width: 175px;
     height: 341px;
-    float: left;
     background: url(img/iphone.jpg);
-    margin: 10px 0px 0px 0px;
+    margin: 15px 0px 0px 20px;
     
 }
 .ipad{
     width: 360px;
     height: 341px;
-    float: left;
     background: url(img/ipad.jpg);
-    margin: 10px 0px 0px 10px;
+    margin: 15px 0px 0px 20px;
 }
 .nerv{
     width: 360px;
     height: 233px;
-    float: left;
+    
     background: url(img/nerv.jpg);
-    margin: 10px 00px 0px 0px;
+    margin: 15px 0px 0px 20px;
 }
 .desing{
     width: 360px;
     height: 165px;
-    float: left;
+    
     background: url(img/desing.jpg);
-    margin: 20px 10px 0px 10px;
+    margin: 15px 10px 0px 20px;
 }
 .webdesing{
     width: 175px;
     height: 341px;
-    float: left;
+    
     background: url(img/webdesing.jpg);
     
-    margin: 351px 10px 0px 555px;
+    margin: 712px 10px 0px 205px;
 }
 .eath{
     width: 360px;
     height: 233px;
-    float: left;
+    
     background: url(img/eath.jpg);
-    margin: 10px 0px 0px 10px;
+    margin: 15px 0px 0px 20px;
 }
 .easiheat{
     width: 360px;
     height: 233px;
-    float: left;
+    
     background: url(img/easiheat.jpg);
-    margin: 10px 0px 0px 0px;
+    margin: 15px 0px 0px 20px;
 }
 .desing{
     width: 360px;
     height: 166px;
-    float: left;
+    
     background: url(img/desing.jpg);
-    margin: 10px 0px 0px 10px;
+    margin: 15px 0px 0px 20px;
 }
 .kub{
     width: 175px;
     height: 341px;
-    float: left;
+    
     background: url(img/kub.jpg);
     margin: -125px 0px 0px 10px;
     display: none;
@@ -149,16 +145,16 @@ h1{
 .macbook{
     width: 360px;
     height: 341px;
-    float: left;
+    
     background: url(img/macbook.jpg);
-    margin: 10px 0px 0px 10px;
+    margin: 15px 0px 0px 20px;
 }
 .heartwood{
     width: 360px;
     height: 341px;
-    float: left;
+    
     background: url(img/heartwood.jpg);
-    margin: -275px 0px 0px 0px;
+    margin: 15px 0px 0px 20px;
 }
 
 
