@@ -3,11 +3,17 @@ body{
     width: 100%;
     padding: 0;
 }
+
+/*=========================== all ==============================*/
+
 .all{
     margin: 0 auto;
     width: 100%;
     padding: 0;
 }
+
+/*=========================== header ==============================*/
+
 h1{
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -47,12 +53,13 @@ h1{
     display: inline-block;
 }
 
+/*=========================== portfolio ==============================*/
+
 .portfolio{
     width: 740px;
     height: 1628px;
     margin: 0 auto;
 }
-
 .portfolio-head{
     width: 100%;
     height: 100px;
@@ -161,6 +168,7 @@ h1{
     margin: -275px 0px 0px 0px;
 }
 
+/*=========================== about_me ==============================*/
 
 .about_me{
     width: 100%;
@@ -203,8 +211,7 @@ h1{
     margin-top: 20px;
 }
 
-
-
+/*=========================== footer ==============================*/
 
 .footer{
     width: 100%;
@@ -274,6 +281,9 @@ h1{
 .footer_both>p:first-child+p{
     font-size: 80%;
 }
+
+/*=========================== form ==============================*/
+
 .form{
     width: 500px;
     height: 350px;

@@ -4,10 +4,25 @@ body{
     padding: 0;
     max-width: 2600px;
 }
+
+/*============================ all ================================*/
+
 .all{
     margin: 0 auto;
     width: 100%;
     padding: 0;
+    max-width: 2600px;
+}
+
+/*=========================== header ==============================*/
+
+
+.header{
+    background: url(img/header.jpg);
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
 }
 h1{
     text-align: center;
@@ -17,13 +32,6 @@ h1{
     font-size: 400%;
     font-weight: 600;
     margin: 235px 0px 0px 0px;
-}
-.header{
-    background: url(img/header.jpg);
-    background-position: 50% 50%;
-    width: 100%;
-    height: 100vh;
-    background-attachment: fixed;
 }
 .header>p>span{
     font-family: 'Pacifico', cursive;
@@ -45,9 +53,8 @@ h1{
     font-size: 130%;
     font-weight: 600;
 }
-.menu>li{
-    display: inline-block;
-}
+
+/*=========================== portfolio ==============================*/
 
 .portfolio{
     width: 960px;
@@ -195,17 +202,13 @@ h1{
     margin: 0 0 20px 0;
 }
 
-
-
-
+/*=========================== about_me ==============================*/
 
 .about_me{
     width: 100%;
     height: 455px;
     background: url(img/my_photo.JPG);
     background-repeat: no-repeat;
-    
-    
 }
 .my_photo{
     width: 48%;
@@ -244,8 +247,7 @@ h1{
     margin-top: 40px;
 }
 
-
-
+/*=========================== footer ==============================*/
 
 .footer{
     width: 100%;
@@ -317,6 +319,7 @@ h1{
     font-size: 80%;
 }
 
+/*=========================== form ==============================*/
 
 .form{
     width: 500px;
